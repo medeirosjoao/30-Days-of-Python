@@ -16,7 +16,6 @@ Team CFE
 
 
 def make_messages(names, amounts):
-    messages = []
     if len(names) == len(amounts):
         i = 0
         today = datetime.date.today()
